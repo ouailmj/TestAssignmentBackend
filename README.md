@@ -31,6 +31,7 @@ We would like to implement an auto-complete feature for movies with a learn-to-r
 - The Services Library app contain the providers and services used by the Web Api app.
 
 # To Run the application:
+- Create a database
 - Adjust the ConnectionStrings, JwtConfiguration and ElasticsearchConfiguration in TestAssignment/appsettings.Development.json file.
 - Go to the Root Directory of the Main app TestAssignment
 - Run the command : dotnet ef migrations add migration1 --context InteractionDbContext
