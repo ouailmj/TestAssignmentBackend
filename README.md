@@ -34,4 +34,4 @@ We would like to implement an auto-complete feature for movies with a learn-to-r
 - Adjust the ConnectionStrings, JwtConfiguration and ElasticsearchConfiguration in TestAssignment/appsettings.Development.json file.
 - Run an elastic search server.
 - Run the Server App.
-- Run the angular App in the link provided.
+- Run the angular App in the link: https://github.com/ouailmj/TestAssignmentFront.
