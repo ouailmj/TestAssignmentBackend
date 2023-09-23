@@ -232,7 +232,7 @@ public class MovieService : IMovieService
                     {
                         Keyword = keyword,
                         UserId = userId,
-                        Timestamp = DateTime.UtcNow
+                        Timestamp = DateTime.Now
                     });
                     break;
                 case MovieActionType.ActionClick:
@@ -241,7 +241,7 @@ public class MovieService : IMovieService
                         MovieName = movieName,
                         MovieId = movieId,
                         UserId = userId,
-                        Timestamp = DateTime.UtcNow
+                        Timestamp = DateTime.Now
                     });
                     break;
                 case MovieActionType.ActionView:
@@ -250,7 +250,7 @@ public class MovieService : IMovieService
                         MovieName = movieName,
                         MovieId = movieId,
                         UserId = userId,
-                        Timestamp = DateTime.UtcNow
+                        Timestamp = DateTime.Now
                     });
                     break;
                 default:
