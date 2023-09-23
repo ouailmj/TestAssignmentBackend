@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <PackageReference Include="Elasticsearch.Net" Version="7.17.5" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="6.0.0-preview.4.21253.5" />
       <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
         <PrivateAssets>all</PrivateAssets>
@@ -18,9 +19,4 @@
       <PackageReference Include="NEST" Version="7.17.5" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Reference Include="Microsoft.AspNetCore.Http.Features">
-        <HintPath>..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\7.0.11\Microsoft.AspNetCore.Http.Features.dll</HintPath>
-      </Reference>
-    </ItemGroup>
 </Project>
